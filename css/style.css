@@ -83,6 +83,17 @@ section > p{
     margin-left: 5px;
     text-shadow: 2px 2px 1px rgb(0, 26, 255);
 }
+div#frame{
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto;
+}
+iframe{
+    width: 800px;
+    height: 500px;
+    border: 2px solid blue ;
+}
+
 section#secao2{
     position: absolute;
     width: 80%;
