@@ -100,7 +100,7 @@ div#frame{
 }
 iframe{
     width: 900px;
-    height: 600px;
+    height: 200px;
     border: 2px solid blue ;
 }
 

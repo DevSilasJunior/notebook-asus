@@ -122,10 +122,10 @@
         height: 400px;
     }
     footer{
+        height: 500px;
         margin-top: 100px;
     }
     footer > img#asus, footer > img#vivobook{
-        width: 300px;
         width: 300px;
     }
     footer > p{
@@ -146,77 +146,79 @@
     }
 }
 
-@media (max-width:520px){
+@media (max-width:620px){
     header > nav{
-        height: 15px;
+        padding: 3px;
+        height: 20px;
     }
     header > nav >a{
-        font-size: 0.6em;
+        font-size: 0.7em;
         padding: 2px
     }
     header > nav > a::after{
         height: 1px;
     }
     header > img{
-        margin-top: 10px;
-        width: 100px;
+        margin-top: 30px;
+        width: 150px;
     }
     header > h1{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     section{
         width: 90%;
     }
     section#secao1{
-        max-height: 100px;
+        max-height: 250px;
         border: 1px solid blue;
     }
     section#secao2{
-        max-height: 130px;
+        max-height: 250px;
         margin: 0px;
     }
     section#secao3{
-        max-height: 120px;
-        margin-top: 160px;
+        margin-top: 340px;
+        max-height: 220px;
     }
     section#secao1 > img{
         transform: translatey(30%);
-        width: 130px;
-        height: 70px;
+        width: 240px;
+        height: 140px;
     }
     section#secao2 > img{
-        width: 140px;
-        height: 140px;
+        width: 200px;
+        height: 200px;
         transform: translateY(10%);
     }
     section#secao3 > img{
-        width: 150px;
-        height: 100px;
+        width: 250px;
+        height: 180px;
     }
     section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
-        font-size: 0.3em;
+        transform: translatey(10%);
+        font-size: 0.8em;
         margin: 0px;
         padding: 3px;
     }
     div#frame{
-        margin: 0px;
+        margin: 20px;
         padding: 5px;
     }
     iframe{
-        width: 150px;
-        height: 100px;
+        width: 250px;
+        height: 200px;
     }
     footer{
         margin-top: 20px;
+        height: 200px;
     }
     footer > img#asus, footer > img#vivobook{
-        margin-top: 10px;
-        width: 100px;
-        width: 100px;
+        margin-top: 20px;
+        width: 130px;
     }
     footer > p{
         margin-top: 15px;
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     /* classes secundárias*/
     .movit-menu1{
