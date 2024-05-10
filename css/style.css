@@ -6,6 +6,10 @@
 }
 body,html{
     background-color: Black;
+    background-image: url("https://www.pngmart.com/files/21/Tech-Transparent-Background.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 header{
     width: 100%;
@@ -16,7 +20,7 @@ header{
 header > nav{
     position: absolute;
     right: 0px;
-    width: 50%;
+    width: 40%;
     height: 5%;
     margin: 0px;
     text-align: center;
@@ -29,7 +33,6 @@ header > nav >  a{
     text-decoration: none;
     font-size: 3em;
     text-wrap: wrap;
-    border-radius: 10px;
     padding: 4px;
     position: relative;
     display: inline-block;
@@ -69,7 +72,7 @@ section{
     margin-top: 6%;
     box-shadow: 2px 2px 150px rgb(0, 38, 255);
     height: 50vh;
-    display: flex;
+    
 }
 section > p{
     width: 60%;
@@ -81,6 +84,7 @@ section > p{
     margin-left: 5px;
     text-shadow: 2px 2px 1px rgb(0, 26, 255);
 }
+
 div#frame{
     text-align: center;
     padding: 10px;
@@ -163,7 +167,7 @@ footer > p{
 .movit-menu3{
     position: fixed;
     right: 0px;
-    top: 134px;
+    top: 135px;
     flex-direction: column;
     width: 200px;
     background-color: #8f898985;
