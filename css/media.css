@@ -146,7 +146,7 @@
     }
 }
 
-@media (max-width:877px){
+@media (max-width:520px){
     header > nav{
         height: 15px;
     }

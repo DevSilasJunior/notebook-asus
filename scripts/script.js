@@ -4,8 +4,8 @@ window.addEventListener("scroll", function(){
     var opcao2 = document.querySelector(".op2")
     var opcao3 = document.querySelector(".op3")
     var menu = document.getElementsByName("nav#menu")
-    //Media max-width: 877
-    if (width < 878){
+    //Media max-width: 520
+    if (width < 521){
         if (this.window.scrollY > 20){
             opcao3.classList.add("movit-menu1")
         } else{
