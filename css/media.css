@@ -13,15 +13,17 @@
     }
     section{
         width: 80%;
+        border-radius: 5px;
     }
     section#secao1{
-        height: 50vh;
+        min-height: 50px;
+        max-height: 700px;
     }
     section#secao2{
-        height: 60vh;
+        max-height: 700px;
     }
     section#secao3{
-        height: 50vh;
+        max-height: 400px;
     }
     section#secao1 > img{
         width: 700px;
@@ -39,7 +41,7 @@
     }
     section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
         font-size: 1.5em;
-        margin: 20px;
+        margin: auto;
         transform: translateY(0%);
     }
     iframe{
@@ -66,6 +68,86 @@
 
 @media (max-width:1360px){
     header > nav{
+        height: 40px;
+    }
+    header > nav >a{
+        font-size: 1.3em;
+        padding: 5px
+    }
+    header > nav > a::after{
+        height: 1px;
+    }
+    header > img{
+        margin-top: 100px;
+        width: 400px;
+    }
+    header > h1{
+        font-size: 1.5em;
+    }
+    section{
+        width: 90%;
+    }
+    section#secao1{
+        max-height: 400px;
+        border: 1px solid blue;
+    }
+    section#secao2{
+        max-height: 500px;
+    }
+    section#secao3{
+        max-height: 400px;
+    }
+    section#secao1 > img{
+        width: 460px;
+        height: 270px;
+    }
+    section#secao2 > img{
+        width: 400px;
+        height: 400px;
+        transform: translateY(10%);
+    }
+    section#secao3 > img{
+        width: 450px;
+        height: 350px;
+    }
+    section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
+        font-size: 1.2em;
+        margin: auto 10px;
+    }
+    section#secao2 > ul{
+        transform: translatey(20%);
+    }
+    iframe{
+        width: 500px;
+        height: 400px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    footer > img#asus, footer > img#vivobook{
+        width: 300px;
+        width: 300px;
+    }
+    footer > p{
+        margin-top: 2px;
+        font-size: 1.5em;
+    }
+    /* classes secundárias*/
+    .movit-menu1{
+        width: 100px;
+    }
+    .movit-menu2{
+        top: 35px;
+        width: 100px;
+    }
+    .movit-menu3{
+        top: 70px;
+        width: 100px;
+    }
+}
+
+@media (max-width:877px){
+    header > nav{
         height: 15px;
     }
     header > nav >a{
@@ -80,58 +162,72 @@
         width: 100px;
     }
     header > h1{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     section{
         width: 90%;
     }
     section#secao1{
-        height: 30vh;
+        max-height: 100px;
         border: 1px solid blue;
     }
     section#secao2{
-        height: 60vh;
+        max-height: 130px;
+        margin: 0px;
     }
     section#secao3{
-        height: 50vh;
+        max-height: 120px;
+        margin-top: 160px;
     }
     section#secao1 > img{
-        width: 140px;
-        height: 76px;
+        transform: translatey(30%);
+        width: 130px;
+        height: 70px;
     }
     section#secao2 > img{
-        width: 600px;
-        height: 600px;
-        transform: translateY(-10%);
+        width: 140px;
+        height: 140px;
+        transform: translateY(10%);
     }
     section#secao3 > img{
-        width: 450px;
-        height: 350px;
-        transform: translateY(-10%);
+        width: 150px;
+        height: 100px;
     }
     section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
-        font-size: 0.4em;
-        margin: 20px;
-        transform: translateY(0%);
+        font-size: 0.3em;
+        margin: 0px;
+        padding: 3px;
+    }
+    div#frame{
+        margin: 0px;
+        padding: 5px;
     }
     iframe{
-        width: 500px;
-        height: 400px;
+        width: 150px;
+        height: 100px;
     }
-    footer > img#asus{
-        width: 400px;
+    footer{
+        margin-top: 20px;
     }
-    footer > img#vivobook{
-        width: 400px;
+    footer > img#asus, footer > img#vivobook{
+        margin-top: 10px;
+        width: 100px;
+        width: 100px;
     }
     footer > p{
-        font-size: 2.1em;
+        margin-top: 15px;
+        font-size: 0.6em;
     }
     /* classes secundárias*/
+    .movit-menu1{
+        width: 40px;
+    }
     .movit-menu2{
-        top: 37px;
+        top: 16px;
+        width: 40px;
     }
     .movit-menu3{
-        top: 73.5px;
+        top: 32px;
+        width: 40px;
     }
 }
