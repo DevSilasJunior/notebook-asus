@@ -1,3 +1,137 @@
-@media (max-width: 1280px){
-    
+@media (max-width: 2200px){
+    header > nav{
+        height: 40px;
+    }
+    header > nav >a{
+        font-size: 1.5em;
+    }
+    header > img{
+        width: 300px;
+    }
+    header > h1{
+        font-size: 1.6em;
+    }
+    section{
+        width: 80%;
+    }
+    section#secao1{
+        height: 50vh;
+    }
+    section#secao2{
+        height: 60vh;
+    }
+    section#secao3{
+        height: 50vh;
+    }
+    section#secao1 > img{
+        width: 700px;
+        height: 400px;
+    }
+    section#secao2 > img{
+        width: 600px;
+        height: 600px;
+        transform: translateY(-10%);
+    }
+    section#secao3 > img{
+        width: 450px;
+        height: 350px;
+        transform: translateY(-10%);
+    }
+    section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
+        font-size: 1.5em;
+        margin: 20px;
+        transform: translateY(0%);
+    }
+    iframe{
+        width: 500px;
+        height: 400px;
+    }
+    footer > img#asus{
+        width: 400px;
+    }
+    footer > img#vivobook{
+        width: 400px;
+    }
+    footer > p{
+        font-size: 2.1em;
+    }
+    /* classes secundárias*/
+    .movit-menu2{
+        top: 37px;
+    }
+    .movit-menu3{
+        top: 73.5px;
+    }
+}
+
+@media (max-width:1360px){
+    header > nav{
+        height: 15px;
+    }
+    header > nav >a{
+        font-size: 0.6em;
+        padding: 2px
+    }
+    header > nav > a::after{
+        height: 1px;
+    }
+    header > img{
+        margin-top: 10px;
+        width: 100px;
+    }
+    header > h1{
+        font-size: 1em;
+    }
+    section{
+        width: 90%;
+    }
+    section#secao1{
+        height: 30vh;
+        border: 1px solid blue;
+    }
+    section#secao2{
+        height: 60vh;
+    }
+    section#secao3{
+        height: 50vh;
+    }
+    section#secao1 > img{
+        width: 140px;
+        height: 76px;
+    }
+    section#secao2 > img{
+        width: 600px;
+        height: 600px;
+        transform: translateY(-10%);
+    }
+    section#secao3 > img{
+        width: 450px;
+        height: 350px;
+        transform: translateY(-10%);
+    }
+    section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
+        font-size: 0.4em;
+        margin: 20px;
+        transform: translateY(0%);
+    }
+    iframe{
+        width: 500px;
+        height: 400px;
+    }
+    footer > img#asus{
+        width: 400px;
+    }
+    footer > img#vivobook{
+        width: 400px;
+    }
+    footer > p{
+        font-size: 2.1em;
+    }
+    /* classes secundárias*/
+    .movit-menu2{
+        top: 37px;
+    }
+    .movit-menu3{
+        top: 73.5px;
+    }
 }
