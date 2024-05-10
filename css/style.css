@@ -6,9 +6,9 @@
 }
 body,html{
     background-color: Black;
-    background-image: url("https://www.pngmart.com/files/21/Tech-Transparent-Background.png");
+    background-image: url("https://i.pinimg.com/originals/60/ac/66/60ac66ae2cf6843b28687fc143861404.png");
     background-size: contain;
-    background-position: bottom;
+    background-position: left center;
     background-repeat: no-repeat;
 }
 header{
@@ -72,7 +72,12 @@ section{
     margin-top: 6%;
     box-shadow: 2px 2px 150px rgb(0, 38, 255);
     height: 50vh;
-    
+    display: flex;
+}
+section#secao1{
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-relacionado-a-tecnologia_811396-23770.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section > p{
     width: 60%;
@@ -103,6 +108,7 @@ section#secao2{
     height: 85vh;
     margin-bottom: 50px;
     right: 5px;
+    background-color: rgba(0, 0, 0, 0);
 }
 section#secao2 > img{
     width: 900px;
@@ -123,6 +129,9 @@ section#secao3{
     position: relative;
     margin-top: 110vh;
     margin-bottom: 4vh;
+    background-image: url("https://elements-cover-images-0.imgix.net/c218b493-8829-4abc-9ffe-5f5e2a7ae698?auto=compress%2Cformat&w=900&fit=max&s=667ba1be154570f874ca25904e6e609f");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 footer{
     width: 90%;
