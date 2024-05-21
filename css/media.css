@@ -95,6 +95,7 @@
         max-height: 500px;
     }
     section#secao3{
+        margin-top: 60vh;
         max-height: 400px;
     }
     section#secao1 > img{
@@ -148,11 +149,11 @@
 
 @media (max-width:620px){
     header > nav{
-        padding: 3px;
-        height: 20px;
+        padding: 4px;
+        height: 30px;
     }
     header > nav >a{
-        font-size: 0.7em;
+        font-size:0.9em;
         padding: 2px
     }
     header > nav > a::after{
@@ -182,17 +183,17 @@
     }
     section#secao1 > img{
         transform: translatey(30%);
-        width: 240px;
-        height: 140px;
+        width: 200px;
+        height: 100px;
     }
     section#secao2 > img{
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
         transform: translateY(10%);
     }
     section#secao3 > img{
-        width: 250px;
-        height: 180px;
+        width: 210px;
+        height: 130px;
     }
     section#secao1 > p, section#secao2 > ul> li,section#secao3 > ul> li{
         transform: translatey(10%);
@@ -222,14 +223,14 @@
     }
     /* classes secundárias*/
     .movit-menu1{
-        width: 40px;
+        width: 50px;
     }
     .movit-menu2{
-        top: 16px;
-        width: 40px;
+        top: 24px;
+        width: 50px;
     }
     .movit-menu3{
-        top: 32px;
-        width: 40px;
+        top: 48px;
+        width: 50px;
     }
 }
